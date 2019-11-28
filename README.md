@@ -1,53 +1,78 @@
-# cict_site
-1. Quản lý tuyển sinh và thi xếp lớp
- Khi học viên đăng ký trực tiếp trên website, dữ liệu sẽ được chọn lọc và lưu thông tin vào phần mềm
- Thống kê học viên từ các nguồn, chiến dịch tiếp thi, học viên đăng ký trực tiếp tại văn phòng
- Nhập thông tin về học viên đăng ký thi xếp lớp theo từng đợt thi
- Cập nhật kết quả xét tuyển
- Đăng ký nhập học cho từng học viên theo từng trình độ
- Phân loại và xếp lớp phù hợp với trình độ thi đầu vào của học viên
-2. Quản lý học viên
- Quản lý và lưu trữ hồ sơ, giấy tờ, sơ yếu lý lịch học viên giúp tra cứu, thống kê nhanh chóng, dễ dàng
- Theo dõi danh sách học viên các lớp, danh sách học viên bảo lưu
- Nhắc nhở khi học viên vắng nhiều
- Quản lý, theo dõi kết quả học tập, điểm danh, khen thưởng, kỷ luật,…của từng học viên trong toàn bộ khóa học
- Người quản lý theo dõi được các thay đổi liên quan đến học viên và lớp học như: bảo lưu, chuyển lớp, dồn lớp, chia lại lớp học theo từng trình độ của học viên
-3. Quản lý giáo viên
- Quản lý thông tin, trình độ, bằng cấp, hồ sơ của giáo viên
- Tuyển giáo viên mới
- Theo dõi quá trình giảng dạy của giáo viên
- Quản lý số giờ lên lớp của từng giáo viên
- Ghi nhận thông tin và số giờ có thể giảng dạy của giáo viên
- Quản lý khen thưởng, kỷ luật của từng giáo viên trong năm
-4. Quản lý đào tạo
- Lập kế hoạch giảng dạy cho các khóa học sắp khai giảng
- Sắp xếp giáo viên giảng dạy cho các khóa học sắp khai giảng
- Phân chia học sinh theo đúng trình độ và mong muốn của học viên
- Theo dõi kế hoạch chi tiết các buổi dạy của từng lớp học theo hệ thống phòng học và ca học
-5. Quản lý lớp học
- Phân chia lớp
- Phân loại theo từng cấp độ học
- Quản lý lịch học, thời khóa biểu
- Quản lý thông báo đến toàn lớp
- Quản lý kết quả học tập của lớp
- Chuyển lớp
- Nhắc nhở khi lớp có học viên mới
- Lưu trữ thông tin học viên bảo lưu và sắp xếp chuyển lớp khi học viên đi học lại
-6. Quản lý thu chi
- Quản lý thu học phí của học viên
- Xử lý học phí khi chuyển lớp, bảo lưu, chuyển đổi cho học viên khác.
- Lập và in phiếu thu tiền học phí cho từng học viên
- Theo dõi được các khoản thu, chi hàng ngày của trung tâm
- Quản lý tổng quát được tình hình thu chi cho hoạt động của trung tâm.
-7. Quản lý kết quả học tập
- Quản lý điểm, kết quả học tập của học viên
- Tự động tính điểm trung bình của học viên
- Hệ thống sẽ nhắc nhở đối với các học viên đã hoàn thành xong chương trình để chuyển tiếp lên các lớp học có trình độ cao hơn
- Lưu thông tin và kết quả học tập của từng học viên trong hệ thống
-8. Tính lương
- Kết xuất bảng tính lương giáo viên theo kết quả chấm công và lịch giảng dạy
- Tính lương cho nhân viên theo các hình thức trả lương: theo buổi, theo ca, theo tháng, mức lương và thời gian áp dụng
- Tự động tính lương làm thêm giờ căn cứ vào bảng tổng hợp chấm công thời gian
- Tự động tính thuế TNCN, trích BHXH của nhân viên theo biểu tính thuế
- Lập bảng thanh toán tiền lương dựa trên bảng lương đã tính để chuyển trả lương cho nhân viên
- Theo dõi, xác nhận việc điều chỉnh tăng, giảm khi có phát sinh
+<p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
+
+<p align="center">
+<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
+</p>
+
+## About Laravel
+
+Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+
+- [Simple, fast routing engine](https://laravel.com/docs/routing).
+- [Powerful dependency injection container](https://laravel.com/docs/container).
+- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
+- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
+- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
+- [Robust background job processing](https://laravel.com/docs/queues).
+- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+
+Laravel is accessible, powerful, and provides tools required for large, robust applications.
+
+## Learning Laravel
+
+Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+
+If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+
+## Laravel Sponsors
+
+We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+
+- **[Vehikl](https://vehikl.com/)**
+- **[Tighten Co.](https://tighten.co)**
+- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
+- **[64 Robots](https://64robots.com)**
+- **[Cubet Techno Labs](https://cubettech.com)**
+- **[Cyber-Duck](https://cyber-duck.co.uk)**
+- **[British Software Development](https://www.britishsoftware.co)**
+- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
+- **[DevSquad](https://devsquad.com)**
+- [UserInsights](https://userinsights.com)
+- [Fragrantica](https://www.fragrantica.com)
+- [SOFTonSOFA](https://softonsofa.com/)
+- [User10](https://user10.com)
+- [Soumettre.fr](https://soumettre.fr/)
+- [CodeBrisk](https://codebrisk.com)
+- [1Forge](https://1forge.com)
+- [TECPRESSO](https://tecpresso.co.jp/)
+- [Runtime Converter](http://runtimeconverter.com/)
+- [WebL'Agence](https://weblagence.com/)
+- [Invoice Ninja](https://www.invoiceninja.com)
+- [iMi digital](https://www.imi-digital.de/)
+- [Earthlink](https://www.earthlink.ro/)
+- [Steadfast Collective](https://steadfastcollective.com/)
+- [We Are The Robots Inc.](https://watr.mx/)
+- [Understand.io](https://www.understand.io/)
+- [Abdel Elrafa](https://abdelelrafa.com)
+- [Hyper Host](https://hyper.host)
+- [Appoly](https://www.appoly.co.uk)
+- [OP.GG](https://op.gg)
+
+## Contributing
+
+Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+
+## Code of Conduct
+
+In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+
+## Security Vulnerabilities
+
+If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+
+## License
+
+The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
