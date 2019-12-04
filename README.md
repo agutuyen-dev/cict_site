@@ -1,2 +1,2 @@
 - Hướng dẫn sử dụng github
-- Tân add...
+- Commit conflicting
