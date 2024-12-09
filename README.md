@@ -1,4 +1,2 @@
 - Hướng dẫn sử dụng github
-- Test merge code
-- Pull request
-- Test update
+- Commit conflicting
